@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio 1</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <h1>RGB CALCULATOR</h1>
+    <div class="container">
+      <span class="red">(V) Vermelho</span>
+      <input
+        type="range"
+        value="0"
+        class="range"
+        min="0"
+        max="255"
+        id="rangeRed"
+      />
+      <input type="text" value="0" id="textRed" disabled />
+    </div>
+    <div class="container">
+      <span class="green">(G) Verde</span>
+      <input
+        type="range"
+        value="0"
+        class="range"
+        min="0"
+        max="255"
+        id="rangeGreen"
+      />
+      <input type="text" value="0" id="textGreen" disabled />
+    </div>
+    <div class="container">
+      <span class="blue">(B) Azul</span>
+      <input
+        type="range"
+        value="0"
+        class="range"
+        min="0"
+        max="255"
+        id="rangeBlue"
+      />
+      <input type="text" value="0" id="textBlue" disabled />
+    </div>
+
+    <div class="container">
+      <div id="box"></div>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

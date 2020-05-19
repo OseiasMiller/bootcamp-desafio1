@@ -1,0 +1,57 @@
+body {
+  background: #f9f9f9;
+  padding: 5px;
+}
+.container {
+  display: grid;
+  grid-template-columns: 100px 200px 50px;
+  padding: 3px;
+}
+
+.range {
+  -webkit-appearance: none;
+  width: 90%;
+  height: 5px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+.range::-webkit-range-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #4caf50;
+  cursor: pointer;
+}
+
+.range::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #4caf50;
+  cursor: pointer;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.blue {
+  color: blue;
+}
+
+#box {
+  background: rgb(0, 0, 0);
+  width: 200px;
+  height: 200px;
+}
