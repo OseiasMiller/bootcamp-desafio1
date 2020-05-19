@@ -1,4 +1,5 @@
-#RGB CALCULATOR
+RGB CALCULATOR
+==================
 Desafio Bootcamp FullStack Igti
 
 
